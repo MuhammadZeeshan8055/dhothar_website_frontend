@@ -16,6 +16,8 @@
         "vite": "^7.0.4"
     },
     "dependencies": {
+        "jquery": "^3.7.1",
+        "owl.carousel": "^2.3.4",
         "vue-router": "^4.5.1"
     }
 }
