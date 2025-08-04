@@ -5,6 +5,7 @@ import About from '../pages/About.vue'
 import Introduction from '../pages/Introduction.vue'
 import Industries_details from '../pages/Industries_details.vue'
 import Our_services from '../pages/Our_services.vue'
+import Mission from '../pages/Mission.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
@@ -12,6 +13,7 @@ const routes = [
   { path: '/introduction', name: 'introduction', component: Introduction },
   { path: '/industries_details', name: 'industries_details', component: Industries_details },
   { path: '/our_services', name: 'our_services', component: Our_services },
+  { path: '/mission', name: 'mission', component: Mission },
 ]
 
 const router = createRouter({
