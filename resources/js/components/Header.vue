@@ -4,9 +4,9 @@
         <div class="main-box">
             <div class="logo-box">
                 <div class="logo">
-                    <a href="/">
+                    <router-link to="/">
                         <img src="/assets/images/dhothar_logo.png" alt="" title="Tronis" />
-                    </a>
+                    </router-link>
                 </div>
             </div>
 
@@ -17,59 +17,59 @@
                         <li class="current"><a href="/">Home</a></li>
 
                         <li class="dropdown">
-                            <a href="#">About</a>
+                            <router-link to="#">About</router-link>
                             <ul>
-                                <li><a href="/introduction">Introduction</a></li>
-                                <li><a href="/industries_details">Industries Details</a></li>
-                                <li><a href="/our_services">Our Services</a></li>
-                                <li><a href="/mission">Mission</a></li>
-                                <li><a href="/vision">Vision</a></li>
-                                <li><a href="/values">Values</a></li>
+                                <li><router-link to="/introduction">Introduction</router-link></li>
+                                <li><router-link to="/industries_details">Industries Details</router-link></li>
+                                <li><router-link to="/our_services">Our Services</router-link></li>
+                                <li><router-link to="/mission">Mission</router-link></li>
+                                <li><router-link to="/vision">Vision</router-link></li>
+                                <li><router-link to="/values">Values</router-link></li>
                             </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="/introduction">Introduction</a>
+                            <router-link to="/introduction">Introduction</router-link>
                             <ul>
-                                <li><a href="/why_dhothar">Why Dhothar</a></li>
-                                <li><a href="/company_organizational_chart">Company Organizational Chart</a></li>
-                                <li><a href="/company_offices">Company Offices</a></li>
+                                <li><router-link to="/why_dhothar">Why Dhothar</router-link></li>
+                                <li><router-link to="/company_organizational_chart">Company Organizational Chart</router-link></li>
+                                <li><router-link to="/company_offices">Company Offices</router-link></li>
                             </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="#">Recruitment Chart</a>
+                            <router-link to="#">Recruitment Chart</router-link>
                             <ul>
-                                <li><a href="/europe_process">Europe</a></li>
-                                <li><a href="/kingdom_saudi">Kingdom of Saudi Arabia</a></li>
-                                <li><a href="/uae_qatar_etc">U.A.E, QATAR, KUWAIT, OMAN & BAHRAIN</a></li>
-                                <li><a href="/sourcing_matrix">Our Sourcing Matrix</a></li>
+                                <li><router-link to="/europe_process">Europe</router-link></li>
+                                <li><router-link to="/kingdom_saudi">Kingdom of Saudi Arabia</router-link></li>
+                                <li><router-link to="/uae_qatar_etc">U.A.E, QATAR, KUWAIT, OMAN & BAHRAIN</router-link></li>
+                                <li><router-link to="/sourcing_matrix">Our Sourcing Matrix</router-link></li>
                             </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="/terms_conditions">Terms</a>
+                            <router-link to="/terms_conditions">Terms</router-link>
                             <ul>
-                                <li><a href="/terms_conditions">Terms and Conditions</a></li>
-                                <li><a href="/orientation">Orientation</a></li>
+                                <li><router-link to="/terms_conditions">Terms and Conditions</router-link></li>
+                                <li><router-link to="/orientation">Orientation</router-link></li>
                             </ul>
                         </li>
 
                         <li class="dropdown">
-                            <a href="/japan_introduction">
+                            <router-link to="/japan_introduction">
                                 <img src="/assets/images/dhothar_images/jp-flag.jpg" width="35"
                                     style="vertical-align: middle;" />
                                 &nbsp;&nbsp; JAPAN
-                            </a>
+                            </router-link>
                             <ul>
-                                <li><a href="/japan_introduction">Introduction</a></li>
-                                <li><a href="/titp_japan">TITP</a></li>
-                                <li><a href="/sswp">Specified Skilled Worker</a></li>
+                                <li><router-link to="/japan_introduction">Introduction</router-link></li>
+                                <li><router-link to="/titp_japan">TITP</router-link></li>
+                                <li><router-link to="/sswp">Specified Skilled Worker</router-link></li>
                             </ul>
                         </li>
 
-                        <li><a href="/new_jobs">New Jobs</a></li>
-                        <li><a href="/gallery">Gallery</a></li>
+                        <li><router-link to="/new_jobs">New Jobs</router-link></li>
+                        <li><router-link to="/gallery">Gallery</router-link></li>
                     </ul>
                 </nav>
             </div>
@@ -83,9 +83,9 @@
             <nav class="menu-box">
                 <div class="upper-box">
                     <div class="nav-logo">
-                        <a href="/">
+                        <router-link to="/">
                             <img src="/assets/images/dhothar_logo.png" alt="" title="" />
-                        </a>
+                        </router-link>
                     </div>
                     <div class="close-btn"><i class="icon fa fa-times"></i></div>
                 </div>
@@ -95,15 +95,15 @@
                         <div class="contact-info-box">
                             <i class="icon lnr-icon-phone-handset"></i>
                             <span class="title">Call Now</span>
-                            <a href="tel:+92880098670">Pak +92514848692<br />Romanian +40739916997<br />UAE
-                                +971501005758</a>
+                            <router-link to="tel:+92880098670">Pak +92514848692<br />Romanian +40739916997<br />UAE
+                                +971501005758</router-link>
                         </div>
                     </li>
                     <li>
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-envelope1"></span>
                             <span class="title">Send Email</span>
-                            <a href="mailto:info@dhotharinternational.com">info@dhotharinternational.com</a>
+                            <router-link to="mailto:info@dhotharinternational.com">info@dhotharinternational.com</router-link>
                         </div>
                     </li>
                     <li>
@@ -115,10 +115,10 @@
                     </li>
                 </ul>
                 <ul class="social-links">
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><router-link to="#"><i class="fab fa-twitter"></i></router-link></li>
+                    <li><router-link to="#"><i class="fab fa-facebook-f"></i></router-link></li>
+                    <li><router-link to="#"><i class="fab fa-pinterest"></i></router-link></li>
+                    <li><router-link to="#"><i class="fab fa-instagram"></i></router-link></li>
                 </ul>
             </nav>
         </div>
@@ -128,9 +128,9 @@
             <div class="auto-container">
                 <div class="inner-container">
                     <div class="logo">
-                        <a href="/" title="">
+                        <router-link to="/" title="">
                             <img src="/assets/images/dhothar_logo.png" alt="" title="" />
-                        </a>
+                        </router-link>
                     </div>
                     <div class="nav-outer">
                         <nav class="main-menu">
@@ -139,60 +139,60 @@
                                     <li class="current"><a href="/">Home</a></li>
 
                                     <li class="dropdown">
-                                        <a href="#">About</a>
+                                        <router-link to="#">About</router-link>
                                         <ul>
-                                            <li><a href="/introduction">Introduction</a></li>
-                                            <li><a href="/industries_details">Industries Details</a></li>
-                                            <li><a href="/our_services">Our Services</a></li>
-                                            <li><a href="/mission">Mission</a></li>
-                                            <li><a href="/vision">Vision</a></li>
-                                            <li><a href="/values">Values</a></li>
+                                            <li><router-link to="/introduction">Introduction</router-link></li>
+                                            <li><router-link to="/industries_details">Industries Details</router-link></li>
+                                            <li><router-link to="/our_services">Our Services</router-link></li>
+                                            <li><router-link to="/mission">Mission</router-link></li>
+                                            <li><router-link to="/vision">Vision</router-link></li>
+                                            <li><router-link to="/values">Values</router-link></li>
                                         </ul>
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="/introduction">Introduction</a>
+                                        <router-link to="/introduction">Introduction</router-link>
                                         <ul>
-                                            <li><a href="/why_dhothar">Why Dhothar</a></li>
-                                            <li><a href="/company_organizational_chart">Company Organizational Chart</a>
+                                            <li><router-link to="/why_dhothar">Why Dhothar</router-link></li>
+                                            <li><router-link to="/company_organizational_chart">Company Organizational Chart</router-link>
                                             </li>
-                                            <li><a href="/company_offices">Company Offices</a></li>
+                                            <li><router-link to="/company_offices">Company Offices</router-link></li>
                                         </ul>
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="#">Recruitment Chart</a>
+                                        <router-link to="#">Recruitment Chart</router-link>
                                         <ul>
-                                            <li><a href="/europe_process">Europe</a></li>
-                                            <li><a href="/kingdom_saudi">Kingdom of Saudi Arabia</a></li>
-                                            <li><a href="/uae_qatar_etc">U.A.E, QATAR, KUWAIT, OMAN & BAHRAIN</a></li>
-                                            <li><a href="/sourcing_matrix">Our Sourcing Matrix</a></li>
+                                            <li><router-link to="/europe_process">Europe</router-link></li>
+                                            <li><router-link to="/kingdom_saudi">Kingdom of Saudi Arabia</router-link></li>
+                                            <li><router-link to="/uae_qatar_etc">U.A.E, QATAR, KUWAIT, OMAN & BAHRAIN</router-link></li>
+                                            <li><router-link to="/sourcing_matrix">Our Sourcing Matrix</router-link></li>
                                         </ul>
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="/terms_conditions">Terms</a>
+                                        <router-link to="/terms_conditions">Terms</router-link>
                                         <ul>
-                                            <li><a href="/terms_conditions">Terms and Conditions</a></li>
-                                            <li><a href="/orientation">Orientation</a></li>
+                                            <li><router-link to="/terms_conditions">Terms and Conditions</router-link></li>
+                                            <li><router-link to="/orientation">Orientation</router-link></li>
                                         </ul>
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="/japan_introduction">
+                                        <router-link to="/japan_introduction">
                                             <img src="/assets/images/dhothar_images/jp-flag.jpg" width="35"
                                                 style="vertical-align: middle;" />
                                             &nbsp;&nbsp; JAPAN
-                                        </a>
+                                        </router-link>
                                         <ul>
-                                            <li><a href="/japan_introduction">Introduction</a></li>
-                                            <li><a href="/titp_japan">TITP</a></li>
-                                            <li><a href="/sswp">Specified Skilled Worker</a></li>
+                                            <li><router-link to="/japan_introduction">Introduction</router-link></li>
+                                            <li><router-link to="/titp_japan">TITP</router-link></li>
+                                            <li><router-link to="/sswp">Specified Skilled Worker</router-link></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="/new_jobs">New Jobs</a></li>
-                                    <li><a href="/gallery">Gallery</a></li>
+                                    <li><router-link to="/new_jobs">New Jobs</router-link></li>
+                                    <li><router-link to="/gallery">Gallery</router-link></li>
                                 </ul>
                             </div>
                         </nav>
