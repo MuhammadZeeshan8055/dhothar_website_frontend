@@ -177,8 +177,6 @@
             </div>
         </section>
 
-        <Footer />
-
     </div><!-- End Page Wrapper -->
 
     <!-- Scroll To Top -->
@@ -187,12 +185,10 @@
 </template>
 
 <script>
-import Footer from '../components/Footer.vue' // adjust path if needed
 import BannerSection from '../components/BannerSection.vue' // adjust path if needed
 
 export default {
   components: {
-    Footer,
     BannerSection
   }
 }
