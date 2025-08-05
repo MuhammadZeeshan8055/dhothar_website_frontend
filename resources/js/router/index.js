@@ -21,7 +21,9 @@ import Japan_introduction from '../pages/Japan_introduction.vue'
 import Titp_japan from '../pages/Titp_japan.vue'
 import Sswp from '../pages/Sswp.vue'
 
-const routes = [
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
   { path: '/', name: 'home', component: Home },
   { path: '/about', name: 'about', component: About },
   { path: '/introduction', name: 'introduction', component: Introduction },
@@ -42,11 +44,11 @@ const routes = [
   { path: '/japan_introduction', name: 'japan_introduction', component: Japan_introduction },
   { path: '/titp_japan', name: 'titp_japan', component: Titp_japan },
   { path: '/sswp', name: 'sswp', component: Sswp },
-]
+],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 };
+  }
+});
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes
-})
 
 export default router
