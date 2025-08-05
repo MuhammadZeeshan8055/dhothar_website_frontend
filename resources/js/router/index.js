@@ -15,6 +15,7 @@ import Europe_process from '../pages/Europe_process.vue'
 import Kingdom_saudi from '../pages/Kingdom_saudi.vue'
 import Uae_qatar_etc from '../pages/Uae_qatar_etc.vue'
 import Sourcing_matrix from '../pages/Sourcing_matrix.vue'
+import Terms_conditions from '../pages/Terms_conditions.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
@@ -32,6 +33,7 @@ const routes = [
   { path: '/kingdom_saudi', name: 'kingdom_saudi', component: Kingdom_saudi },
   { path: '/uae_qatar_etc', name: 'uae_qatar_etc', component: Uae_qatar_etc },
   { path: '/sourcing_matrix', name: 'sourcing_matrix', component: Sourcing_matrix },
+  { path: '/terms_conditions', name: 'terms_conditions', component: Terms_conditions },
 ]
 
 const router = createRouter({
