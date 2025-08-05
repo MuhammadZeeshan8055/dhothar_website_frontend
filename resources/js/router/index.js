@@ -17,6 +17,7 @@ import Uae_qatar_etc from '../pages/Uae_qatar_etc.vue'
 import Sourcing_matrix from '../pages/Sourcing_matrix.vue'
 import Terms_conditions from '../pages/Terms_conditions.vue'
 import Orientation from '../pages/Orientation.vue'
+import Japan_introduction from '../pages/Japan_introduction.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
@@ -36,6 +37,7 @@ const routes = [
   { path: '/sourcing_matrix', name: 'sourcing_matrix', component: Sourcing_matrix },
   { path: '/terms_conditions', name: 'terms_conditions', component: Terms_conditions },
   { path: '/orientation', name: 'orientation', component: Orientation },
+  { path: '/japan_introduction', name: 'japan_introduction', component: Japan_introduction },
 ]
 
 const router = createRouter({
