@@ -68,11 +68,11 @@
               <h6 class="widget-title">Explore</h6>
               <div class="widget-content">
                 <ul class="user-links">
-                  <li><a href="why_dhothar.php">Why Dhothar</a></li>
-                  <li><a href="company_organizational_chart.php">Company Organizational Chart</a></li>
-                  <li><a href="company_offices.php">Company Offices</a></li>
-                  <li><a href="introduction.php">About Us</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><router-link to="why_dhothar">Why Dhothar</router-link></li>
+                  <li><router-link to="company_organizational_chart">Company Organizational Chart</router-link></li>
+                  <li><router-link to="company_offices">Company Offices</router-link></li>
+                  <li><router-link to="introduction">About Us</router-link></li>
+                  <li><router-link to="#">Contact</router-link></li>
                 </ul>
               </div>
             </div>
