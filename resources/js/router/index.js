@@ -18,6 +18,7 @@ import Sourcing_matrix from '../pages/Sourcing_matrix.vue'
 import Terms_conditions from '../pages/Terms_conditions.vue'
 import Orientation from '../pages/Orientation.vue'
 import Japan_introduction from '../pages/Japan_introduction.vue'
+import Titp_japan from '../pages/Titp_japan.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
@@ -38,6 +39,7 @@ const routes = [
   { path: '/terms_conditions', name: 'terms_conditions', component: Terms_conditions },
   { path: '/orientation', name: 'orientation', component: Orientation },
   { path: '/japan_introduction', name: 'japan_introduction', component: Japan_introduction },
+  { path: '/titp_japan', name: 'titp_japan', component: Titp_japan },
 ]
 
 const router = createRouter({
