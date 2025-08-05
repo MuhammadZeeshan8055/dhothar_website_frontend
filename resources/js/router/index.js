@@ -13,6 +13,7 @@ import Company_organizational_chart from '../pages/Company_organizational_chart.
 import Company_offices from '../pages/Company_offices.vue'
 import Europe_process from '../pages/Europe_process.vue'
 import Kingdom_saudi from '../pages/Kingdom_saudi.vue'
+import Uae_qatar_etc from '../pages/Uae_qatar_etc.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
@@ -28,6 +29,7 @@ const routes = [
   { path: '/company_offices', name: 'company_offices', component: Company_offices },
   { path: '/europe_process', name: 'europe_process', component: Europe_process },
   { path: '/kingdom_saudi', name: 'kingdom_saudi', component: Kingdom_saudi },
+  { path: '/uae_qatar_etc', name: 'uae_qatar_etc', component: Uae_qatar_etc },
 ]
 
 const router = createRouter({
