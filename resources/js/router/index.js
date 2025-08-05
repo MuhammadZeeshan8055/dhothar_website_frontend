@@ -8,6 +8,7 @@ import Our_services from '../pages/Our_services.vue'
 import Mission from '../pages/Mission.vue'
 import Vision from '../pages/Vision.vue'
 import Values from '../pages/Values.vue'
+import Why_dhothar from '../pages/Why_dhothar.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
@@ -18,6 +19,7 @@ const routes = [
   { path: '/mission', name: 'mission', component: Mission },
   { path: '/vision', name: 'vision', component: Vision },
   { path: '/values', name: 'values', component: Values },
+  { path: '/why_dhothar', name: 'why_dhothar', component: Why_dhothar },
 ]
 
 const router = createRouter({
