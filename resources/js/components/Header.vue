@@ -68,8 +68,8 @@
                             </ul>
                         </li>
 
-                        <li><router-link to="/new_jobs">New Jobs</router-link></li>
-                        <li><router-link to="/gallery">Gallery</router-link></li>
+                        <li><router-link to="#">New Jobs</router-link></li>
+                        <li><router-link to="#">Gallery</router-link></li>
                     </ul>
                 </nav>
             </div>
@@ -191,8 +191,8 @@
                                         </ul>
                                     </li>
 
-                                    <li><router-link to="/new_jobs">New Jobs</router-link></li>
-                                    <li><router-link to="/gallery">Gallery</router-link></li>
+                                    <li><router-link to="#">New Jobs</router-link></li>
+                                    <li><router-link to="#  ">Gallery</router-link></li>
                                 </ul>
                             </div>
                         </nav>
